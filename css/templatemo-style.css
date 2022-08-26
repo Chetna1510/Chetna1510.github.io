@@ -1,0 +1,317 @@
+/*
+
+Lavish HTML CSS Template
+
+https://templatemo.com/tm-458-lavish
+		
+*/
+
+body
+{
+	background: #000000;
+	color: #999;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* start all section */
+#home,
+#home .fp-slide,
+#home .fp-tableCell,
+
+#about,
+#about .fp-slide,
+#about .fp-tableCell,
+
+#contact,
+#contact .fp-slide,
+#contact .fp-tableCell,
+
+#portfolio,
+#portfolio .fp-slide,
+#portfolio .fp-tableCell,
+
+footer,
+footer .fp-slide,
+footer .fp-tableCell
+{
+    height: auto !important;
+}
+
+/* end all section */
+
+/* start all heading */
+h1,h2,h3,h4,h5
+    {
+        color: #ffffff;
+        font-weight: bold;
+    }
+/* end all heading */
+
+/* start all section */
+#work, #about, #portfolio, #contact
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+/* end all section */
+
+/* start simpletextrotator */
+.rotating {
+  display: inline-block;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(0) rotateY(0) rotateZ(0);
+  -moz-transform: rotateX(0) rotateY(0) rotateZ(0);
+  -ms-transform: rotateX(0) rotateY(0) rotateZ(0);
+  -o-transform: rotateX(0) rotateY(0) rotateZ(0);
+  transform: rotateX(0) rotateY(0) rotateZ(0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform-origin-x: 50%;
+}
+
+.rotating.flip {
+  position: relative;
+}
+
+.rotating .front, .rotating .back {
+  left: 0;
+  top: 0;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.rotating .front {
+  position: absolute;
+  display: inline-block;
+  -webkit-transform: translate3d(0,0,1px);
+  -moz-transform: translate3d(0,0,1px);
+  -ms-transform: translate3d(0,0,1px);
+  -o-transform: translate3d(0,0,1px);
+  transform: translate3d(0,0,1px);
+}
+
+.rotating.flip .front {
+  z-index: 1;
+}
+
+.rotating .back {
+  display: block;
+  opacity: 0;
+}
+
+.rotating.spin {
+  -webkit-transform: rotate(360deg) scale(0);
+  -moz-transform: rotate(360deg) scale(0);
+  -ms-transform: rotate(360deg) scale(0);
+  -o-transform: rotate(360deg) scale(0);
+  transform: rotate(360deg) scale(0);
+}
+
+.rotating.flip .back {
+  z-index: 2;
+  display: block;
+  opacity: 1;
+  
+  -webkit-transform: rotateY(180deg) translate3d(0,0,0);
+  -moz-transform: rotateY(180deg) translate3d(0,0,0);
+  -ms-transform: rotateY(180deg) translate3d(0,0,0);
+  -o-transform: rotateY(180deg) translate3d(0,0,0);
+  transform: rotateY(180deg) translate3d(0,0,0);
+}
+
+.rotating.flip.up .back {
+  -webkit-transform: rotateX(180deg) translate3d(0,0,0);
+  -moz-transform: rotateX(180deg) translate3d(0,0,0);
+  -ms-transform: rotateX(180deg) translate3d(0,0,0);
+  -o-transform: rotateX(180deg) translate3d(0,0,0);
+  transform: rotateX(180deg) translate3d(0,0,0);
+}
+
+.rotating.flip.cube .front {
+  -webkit-transform: translate3d(0,0,100px) scale(0.9,0.9);
+  -moz-transform: translate3d(0,0,100px) scale(0.85,0.85);
+  -ms-transform: translate3d(0,0,100px) scale(0.85,0.85);
+  -o-transform: translate3d(0,0,100px) scale(0.85,0.85);
+  transform: translate3d(0,0,100px) scale(0.85,0.85);
+}
+
+.rotating.flip.cube .back {
+  -webkit-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.9,0.9);
+  -moz-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -ms-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -o-transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+}
+
+.rotating.flip.cube.up .back {
+  -webkit-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.9,0.9);
+  -moz-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -ms-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  -o-transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+  transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+}
+/* end simpletextrotator */
+
+/* start home */       
+#home
+	{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+	}
+
+#home h2
+    {
+        padding-bottom: 10px;
+        font-family: popins;
+        font-weight: lighter;
+        font-size: medium;
+    }
+    #home h1
+    {
+        padding-bottom: 10px;
+        text-decoration: underline;
+    }
+/* end home */
+
+/* start about */
+#about{
+    background-color: #fff;
+}
+#about h4
+    {
+        padding: 15px 0;
+		color: black;
+    }
+#about p{
+    color: #333;
+}
+#about .progress
+    {
+        border-radius: 4px;
+        background:grey;
+        height: 4px;
+    }
+#about .progress .progress-bar-danger
+    {
+        background: #D43F52;
+    }
+#about .text-top
+    {
+        padding-top: 80px;
+        color: black;
+    }
+#about span
+    {
+        color: black;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 6px;
+    }
+#about small
+    {
+        font-weight: bold;
+        float: right;
+    }
+/* end about */
+
+/* start portfolio */
+#portfolio
+    {
+        background: #1a1a1a;
+        text-align: center;
+    }
+#portfolio h2
+    {
+        padding-bottom: 30px;
+    }
+#portfolio .portfolio-thumb
+    {
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+/* end portfolio */
+
+/* start contact */
+#contact{
+    background-color: #fff;
+}
+
+#contact address
+    {
+      padding-bottom: 10px;
+    }
+	
+#contact .contact-title
+    {
+		font-size: 24px;
+		font-weight: bold;
+        padding-bottom: 1=20px;
+		color: #ffffff;
+    }
+#contact .fa
+    {
+        border: 2px solid grey;
+        border-radius: 50%;
+        color: #D43F52;
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+/* end contact */
+
+/* start footer */
+footer
+    {
+        background-color: #333;
+        color: #fff;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        text-align: center;
+    }
+/* end footer */
+
+/* start social icon */
+.social-icon
+    {
+        position: relative;
+        padding-top: 20px;
+        height: 80px;
+    }
+.social-icon li
+    {
+        display: inline-block;
+        list-style: none;
+    }
+.social-icon li a
+    {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 40px;
+        width: 50px !important;
+    }
+.social-icon li a:hover
+    {
+        color: #D43F52;
+    }
+/* end social icon */

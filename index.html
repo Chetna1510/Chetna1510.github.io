@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-
-		<title>Chetna Bhootaka | portfolio</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chetna Bhootaka | portfolio</title>
 		<meta name="keywords" content="">
 		<meta name="description" content="Online portfolio of Chetna Bhootaka">
         <meta name="author" content="templatemo">
@@ -16,139 +16,403 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- animate -->
-		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- font-awesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- google font -->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
-		<!-- fullpage -->
-		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<!-- Bootstrap 4 CSS (already using CDN) -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		
+		<!-- Font Awesome -->
+   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!-- fullPage.js from CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+
 		<!-- custom -->
 		<link rel="stylesheet" href="css/templatemo-style.css">
-
-	</head>
-	<body>
+</head>
+<body>
 
 	<div id="fullpage">
 
-		<!-- start home -->
-		<div id="home" class="section">
-			<div class="container">
+		<!-- Header -->
+		<header id="header">
+			<div class="home">
+				<div class="container">
 				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						<h1>Chetna Bhootaka</h1>
-						<h2>Computer Engineer</h2>
+					<div class="intro-text">
+					<h1>Hello, I'm <span class="name">Chetna Bhootaka</span></h1>
+					<p>Software Engineer</p>
+					<a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+				</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="nav">
+        	<nav class="navbar navbar-custom">
+            	<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand page-scroll" href="#page-top">Chetna</a> 
 					</div>
+				
+					<ul class="nav navbar-nav">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<li class="hidden"> <a href="#page-top"></a> </li>
+					<li> <a class="page-scroll" href="#about">About</a> </li>
+					<li> <a class="page-scroll" href="#skills">Skills</a> </li>
+					<li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+					<li> <a class="page-scroll" href="#contact">Contact</a> </li>
+					</ul>
+            
+            	</div>
+        	</nav>
+    	</div>
+
+		<!-- About Section -->
+		<div id="about">
+			<div class="container">
+				<div class="section-title text-center center">
+					<h2>About Me</h2>
+					<hr>
+				</div>
+				<div class="row">
+					<div class="image-right">
+						<img src="images/chetna.jpg" class="img-responsive">
+					</div>
+					<div class="col-md-8 col-md-offset-2">
+						<div class="about-text">
+							<p>Hello! I currently work as a Technical Customer Support Representative at an IT company. 
+								I enjoy helping users solve problems and supporting them through technical challenges. 
+								At the same time, I have a strong passion for programming and web development. 
+								The more I learn and practice coding and experimenting with new technologies, the more motivated and confident I feel to grow in this field.
+							</p>
+							<p>Outside of work, I like spending time cooking new dishes or creating DIY art and design pieces because it helps me relax and keep my creativity flowing.
+						</p>
+					</div>
+				</div>
 				</div>
 			</div>
 		</div>
-		<!-- end home -->
-
-		<!-- start about -->
-		<div id="about" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.3s">
-						<h2>About Chetna</h2>
-						<h4>Customer Support Representative</h4> 
-							<p>Hello! I currently work as a Technical Customer Support Representative at an IT company, where I assist users with WordPress plugins. While I enjoy helping users solve problems, my true passion lies in programming. I believe that the more you learn, the more confident you become — and that’s what keeps me motivated to explore web development through side projects, experimenting with code, and diving into new technologies.</p>
-
-							<p>Outside of work, I find joy in creativity, whether it's trying out new recipes in the kitchen or working on DIY art and design. It keeps me curious, inspired, and always learning — just like solving a puzzle, which I absolutely enjoy.</p></p>
-
-						</div>
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-						
-						<span class="text-top">HTML<small>80%</small></span>
-						
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-							</div>
-						<span>CSS <small>60%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
-							</div>
-						<span>JavaScript<small>50%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-							</div>
-						<span>PHP<small>60%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-							</div>
-						<span>Suppport Ninja <small>90%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-							</div>
-					</div>
-				</div>
+		<!-- Skills Section -->
+		<div id="skills" class="text-center">
+		<div class="container">
+			<div class="section-title center">
+				<h2>Skills</h2>
+				<hr>
 			</div>
+			<div class="skills-grid">
+            <!-- Technical Skills -->
+            <div class="skill-category">
+                <h3 class="category-title">Technical</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>CSS</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 40%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>PHP</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+				<div class="skill-item">
+                    <div class="skill-name">
+                        <span>React</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 40%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="skill-category">
+                <h3 class="category-title">Professional</h3>
+                
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>WordPress(CMS)</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Troubleshooting & Problem solving</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>UI Feedback</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Cross-functional Collaboration</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="tools">
+            <h3>Tools & Technologies</h3>
+            <div class="tool-list">
+                <span class="tool">Github</span>
+                <span class="tool">VS Code</span>
+                <span class="tool">Figma</span>
+                <span class="tool">MySQL</span>
+                <span class="tool">Postman</span>
+                <span class="tool">FileZilla</span>
+                <span class="tool">LocalWP</span>
+                <span class="tool">Xampp</span>
+				<span class="tool">Jira</span>
+				<span class="tool">Asana</span>
+            </div>
+        </div>
 		</div>
-		<!-- end about -->
+		</div>
 
 		<!-- start portfolio -->
 		<div id="portfolio" class="section">
 		<div class="container">
+			 <!-- Portfolio Title -->
 			<div class="row">
-				<div class="col-md-12">
-					<h2 class="wow bounce">PORTFOLIO</h2>
+				<div class="col-md-12 text-center">
+				<h2>PORTFOLIO</h2>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<a href="https://codepen.io/chetna181/full/ZExNNBg" target="_blank"><img src="images/calculator.png" class="img-responsive" alt="portfolio img" width="400px" height="400px"></a>	
-						<h4>Calculate(JavaScript)</h4>	
-					</div>
+			</div>
+			<!-- Filter Buttons -->
+			<div class="row">
+				<div class="col-md-12 text-center">
+				<ul class="portfolio-filter">
+					<li><a href="#" data-filter="*" class="active">All</a></li>
+					<li><a href="#" data-filter=".demos">Frontend Demos</a></li>
+					<li><a href="#" data-filter=".plugin">Customization</a></li>
+					<li><a href="#" data-filter=".projects">Projects</a></li>
+				</ul>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<a href="https://codepen.io/chetna181/full/jOzoooN" target="_blank"><img src="images/animated-card.png" class="img-responsive" alt="portfolio img"></a>
-							<div class="portfolio-overlay">
-								<h4>Animated Card</h4>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s" style="float: right;">
-					<div class="portfolio-thumb">
-						<a href="https://codepen.io/chetna181/full/yLKmEqZ" target="_blank"><img src="images/Grocery list.png" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Grocery Shopping list</h4>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<a href="https://codepen.io/chetna181/full/bGvXKmK" target="_blank"><img src="images/clock.png" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Clock</h4>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"style="float: left;"> 
-					<div class="portfolio-thumb" >
-						<a href="https://codepen.io/chetna181/full/XWEwLrN" target="_blank"><img src="images/FAQ-page.png" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>FAQ Page</h4>
-							</div>
-					</div>
-				</div>
+			</div>
+			<!-- Display projects -->
+			<div class="row portfolio-items">
+				<!--Start demo-->
 				
+				<div class="col-sm-6 col-md-3 col-lg-3 demos">
+					<div class="portfolio-thumb">
+						<a href="https://codepen.io/chetna181/full/ZExNNBg" target="_blank">
+							<img src="images/calculator.png" class="img-responsive" alt="Calculator" width="400px" height="400px">
+						</a>	
+						<div class="portfolio-overlay">
+							<h4>Calculate (JavaScript)</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 demos">
+					<div class="portfolio-thumb">
+						<a href="https://codepen.io/chetna181/full/jOzoooN" target="_blank">
+							<img src="images/animated-card.png" class="img-responsive" alt="Animated Card">
+						</a>
+						<div class="portfolio-overlay">
+							<h4>Animated Card</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 demos">
+					<div class="portfolio-thumb">
+						<a href="https://codepen.io/chetna181/full/yLKmEqZ" target="_blank">
+							<img src="images/Grocery list.png" class="img-responsive" alt="Grocery List">
+						</a>
+						<div class="portfolio-overlay">
+							<h4>Grocery Shopping List</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 demos">
+					<div class="portfolio-thumb">
+						<a href="https://codepen.io/chetna181/full/bGvXKmK" target="_blank">
+							<img src="images/clock.png" class="img-responsive" alt="Clock">
+						</a>
+						<div class="portfolio-overlay">
+							<h4>Clock</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 demos"> 
+					<div class="portfolio-thumb">
+						<a href="https://codepen.io/chetna181/full/XWEwLrN" target="_blank">
+							<img src="images/FAQ-page.png" class="img-responsive" alt="FAQ Page">
+						</a>
+						<div class="portfolio-overlay">
+							<h4>FAQ Page</h4>
+						</div>
+					</div>
+				</div>
+
+				<!---- end demos--->
+
+				<!--Start Plugin Development-->
+				
+				<div class="col-sm-6 col-md-3 col-lg-3 plugin">
+					<div class="portfolio-item">
+						<div class="hover-bg quickcart-modal-trigger">
+							<img src="images/quickcart_update.png" class="img-responsive" alt="QuickCart Plugin">
+							<div class="hover-text">
+								<h4>QuickCart Plugin</h4>
+								<small>Built using PHP & JavaScript</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 plugin">
+					<div class="portfolio-item">
+						<div class="hover-bg qty-dropdown-modal-trigger">
+							<img src="images/qty_product.png" class="img-responsive" alt="Quantities Dropdown Box For WooCommerce">
+							<div class="hover-text">
+								<h4>Quantities Dropdown Box For WooCommerce</h4>
+								<small>Built using PHP</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 plugin">
+					<div class="portfolio-item">
+						<div class="hover-bg getProductCategories-modal-trigger">
+							<img src="images/product_category.png" class="img-responsive" alt="WooCommerce Create Product Importable CSV">
+							<div class="hover-text">
+								<h4>Product Categorization Feature</h4>
+								<small>Built using PHP & React</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 plugin">
+					<div class="portfolio-item">
+						<div class="hover-bg csvexporter-modal-trigger">
+							<img src="images/csv.jpg" class="img-responsive" alt="Order Delivery Date CSV Exporter Addon">
+							<div class="hover-text">
+								<h4>Order Delivery Date CSV Exporter Addon</h4>
+								<small>Built using PHP</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 col-lg-3 plugin">
+					<div class="portfolio-item">
+						<div class="hover-bg CouponCraft-modal-trigger">
+							<img src="images/coupon.jpg" class="img-responsive" alt="CouponCraft for WooCommerce plugin">
+							<div class="hover-text">
+								<h4>CouponCraft Plugin</h4>
+								<small>Built using PHP</small>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--End Plugin Development-->
+
+				<!--Start Customization-->
+				
+				<div class="col-sm-6 col-md-3 col-lg-3 plugin">
+					<div class="portfolio-item">
+						<div class="hover-bg cosemail-modal-trigger">
+							<img src="images/COS_Email.png" class="img-responsive" alt="Email Sending Enhancement">
+							<div class="hover-text">
+								<h4>Email Sending Enhancement</h4>
+								<small>Built using PHP & HTML</small>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--End Customization-->
+
+				<!--Projects--> 
+
+				<div class="col-sm-6 col-md-3 col-lg-3 projects">
+					<div class="portfolio-item">
+						<div class="hover-bg prddUI-modal-trigger">
+							<img src="images/prdd_ui.png" class="img-responsive" alt="Product Delivery Date(Backend UI)">
+							<div class="hover-text">
+								<h4>Product Delivery Date Plugin</h4>
+								<small>Built using  HTML & CSS</small>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-3 col-lg-3 projects">
+					<div class="portfolio-item">
+						<div class="hover-bg pg-life-trigger">
+							<img src="images/pg_life.png" class="img-responsive" alt="PG LIFE">
+							<div class="hover-text">
+								<h4>PG LIFE</h4>
+								<small>Coming Soon</small>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--End PRojects-->
 			</div>
 		</div>
-	</div>
+		</div>
 	<!-- end portfolio -->
 
 		<!-- start contact -->
 		<div id="contact" class="section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+					<div class="col-lg-5 col-lg-offset-1 col-md-6">
 						<address>
 							<p class="contact-title">CONTACT ME</p>
 							<p><i class="fa fa-phone"></i> +310633475811</p>
-							<p><i class="fa fa-envelope-o"></i> patelchetna1122@gmail.com</p>
+							<p><i class="fa fa-envelope-o"></i> chetnab.work8@gmail.com</p>
 							<p><i class="fa fa-map-marker"></i> Capelle aan de Ijssel, Netherlands</p>
 						</address>
 					</div>
@@ -176,20 +440,191 @@
 
 	</div>
 
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
-		<!-- bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- fullpage -->
-		<script src="js/jquery.fullPage.js"></script>
-		<!-- smoothScroll -->
-		<script src="js/smoothscroll.js"></script>
-		<!-- wow -->
-		<script src="js/wow.min.js"></script>
-		<!-- text rotater -->
-		<script src="js/jquery.simple-text-rotator.js"></script>
-		<!-- custom -->
-		<script src="js/custom.js"></script>
+	<!-- Modal for QuickCart Plugin -->
+	<div class="modal fade plugin-modal" id="pluginModal" tabindex="-1" role="dialog" aria-labelledby="pluginModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="pluginModalLabel">QuickCart Update – WooCommerce Cart Auto-Update Plugin</h5>
+					
+				</div>
+				<div class="modal-body">
+					<img src="images/quickcart_update.png" class="img-fluid mb-3 plugin-image" alt="QuickCart Plugin" />
+					<p><span class="tech-stack">Technology Stack:</span> PHP, WordPress,  JavaScript (jQuery), API, AJAX</p>  
+					<p><span class="description">Description:</span> </p>
+					<p>This WooCommerce plugin automatically updates cart totals when quantity changes on the cart page, eliminating the need to manually click the “Update Cart” button.</p>
+					
+					<p><strong class="feature-highlight">Features:</strong></p>
+					
+					<ul class="features-list">
+						<li>Automatically detects quantity changes in the WooCommerce cart.</li>
+						<li>Uses AJAX to update cart contents without full page reload.</li>
+						<li>Added a timed delay to prevent unnecessary multiple updates on rapid quantity changes.</li>
+						<li>Loads JavaScript only on the cart page for performance optimization.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Quantities Dropdown Modal -->
+	<div class="modal fade plugin-modal" id="qtypluginModal" tabindex="-1" role="dialog" aria-labelledby="qtyPluginModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="qtyPluginModalLabel">Quantities Dropdown Box for WooCommerce</h5>
+				</div>
+				<div class="modal-body">
+					<img src="images/qty_product.png" class="img-fluid mb-3 plugin-image" alt="Quantities Dropdown Box For WooCommerce" />
+					<p><span class="tech-stack">Technology Stack:</span> PHP, WordPress, WooCommerce, WP Settings API</p>  
+					<p><span class="description">Description:</span> </p>
+					<p>Developed a WordPress plugin that replaces the default WooCommerce quantity input box with a dropdown selection box. This enhances usability by limiting the quantity choices to a predefined range, reducing errors and improving user experience on both product and cart pages.</p>
+					<p><strong class="feature-highlight">Features:</strong></p>
+					<ul class="features-list">
+						<li>Converts WooCommerce quantity input fields into dropdown selectors.</li>
+						<li>Admin settings page to enable/disable the dropdown on product and/or cart pages.</li>
+						<li>Integration with WooCommerce template system by overriding quantity input templates.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Product Categorization feature for woocommmerce -->
+	<div class="modal fade plugin-modal type-1" id="getProductCategoriesModal" tabindex="-1" role="dialog" aria-labelledby="productCategoriesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productCategoriesModalLabel">Product Categorization Feature for WooCommerce</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="images/product_category.png" class="img-fluid mb-3 plugin-image" alt="Product Categorization Feature for WooCommerce" />
+                    <p><span class="tech-stack">Technology Stack:</span> PHP, React.js, JavaScript (ES6+), Tailwind CSS, WordPress REST API</p>  
+                    <p><span class="description">Description:</span> </p>
+					<p>
+						Contributed to an existing 'WooCommerce Create Product Importable CSV' plugin by adding a dynamic product category selection feature, improving the product management experience for end-users.
+					</p>  
+					<p><strong class="feature-highlight">Features:</strong></p>
+                    <ul class="features-list">
+                        <li>Implemented a multi-selection dropdown in the product form to allow selection of multiple product categories</li>
+                        <li>Pulled category data dynamically from wpCategoryData using the WordPress REST API</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- CouponCraft for woocommmerce plugin-->
+	<div class="modal fade plugin-modal type-1" id="CouponCraftModal" tabindex="-1" role="dialog" aria-labelledby="couponCraftModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="couponCraftModalLabel">CouponCraft for WooCommerce Plugin</h5>
+                </div>
+                <div class="modal-body">
+                    <p><span class="tech-stack">Technology Stack:</span> PHP, WooCommerce API, WordPress Hooks & Filters</p>  
+                    <p><span class="description">Description:</span> </p>
+					<p>
+						Developed a custom WooCommerce utility to bulk delete coupon codes based on a selected date range. This tool helps store administrators clean up expired or unused coupons efficiently, improving store performance and reducing database clutter.</p>
+                    <p><strong class="feature-highlight">Features:</strong></p>
+                    <ul class="features-list">
+                        <li>Allows selection of start and end dates to filter coupons for deletion</li>
+                        <li>Integrates seamlessly with WooCommerce admin dashboard for easy access</li>
+                        <li>Ensures safe deletion with validation checks to avoid accidental removals</li>				
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Modal for CVS exporter Plugin -->
+	<div class="modal fade plugin-modal type-2" id="csvexporterModal" tabindex="-1" role="dialog" aria-labelledby="csvexporterModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="csvexporterModalLabel">Order Delivery Date CSV Exporter Addon</h5>
+                    
+                </div>
+                <div class="modal-body">
+                    <img src="images/csv.jpg" class="img-fluid mb-3 plugin-image" alt="Order Delivery Date CSV Exporter Addon" />
+                    <p><span class="tech-stack">Technology Stack:</span> PHP, MySQL (via WooCommerce data), Hooks & Filters</p>  
+                    <p><span class="description">Description:</span></p>
+					<p>
+						 Developed a custom add-on for the Order Delivery Date for WooCommerce Pro plugin to generate CSV reports on customization request. The addon extends the default CSV export functionality, allowing businesses to quickly analyze order quantities, product weights, and delivery details.</p>
+                    <p><strong class="feature-highlight">Features:</strong></p>
+                    <ul class="features-list">
+                        <li>Extracts unique products from all orders dynamically and creates individual CSV columns for each product</li>
+                        <li>Calculates and displays total quantities and total weight (in kg) for each product across all orders</li>
+                        <li>Supports orders with multiple products and dynamically updates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Custom Order Status Email -->
+	<div class="modal fade plugin-modal type-2" id="cosemailModal" tabindex="-1" role="dialog" aria-labelledby="cosemailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cosemailModalLabel">Custom Order Status Email Notification</h5>
+                    
+                </div>
+                <div class="modal-body">
+                    <img src="images/COS_Email.png" class="img-fluid mb-3 plugin-image" alt="Custom Order Status Email Notification" />
+                    <p><span class="tech-stack">Technology Stack:</span> PHP, MySQL (via WooCommerce data), Hooks & Filters</p>  
+                    <p><span class="description">Description:</span> </p>
+					<p>
+						Implemented a feature in the plugin to send email notifications when the order status is changed to custom order status.</p>
+                    <p><strong class="feature-highlight">Features:</strong></p>
+                    <ul class="features-list">
+                        <li>Developed Email Sending functionality by adding settings with dynamic placeholders support</li>
+                        <li>Used form using HTML & PHP</li>
+                        <li>Used WordPress functions to securely store in post_meta and retrieve the data from database</li>
+                        <li>wc_mail function used to send emails</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!--Product Delivery DAte Backend UI -->
+	<div class="modal fade plugin-modal type-2" id="prddUIModal" tabindex="-1" role="dialog" aria-labelledby="prddUIModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="PRDDUIModalLabel">PRDD WooCommerce Plugin – UI Redesign & Implementation</h5>
+                
+                </div>
+                <div class="modal-body">
+                    <img src="images/prdd_ui.png" class="img-fluid mb-3 plugin-image" alt="Product Delivery Date" />
+                    <p><span class="tech-stack">Technology Stack:</span> HTML, CSS, & Bootstrap</p>  
+                    <p><span class="description">Description:</span></p>
+					<p>
+						Redesigned the user interface of the Product Delivery Date WooCommerce plugin to enhance usability and modernize its appearance. Collaborated with a web designer who provided a Figma prototype, then implemented the new design using HTML, CSS, Bootstrap, and custom styling.</p>
+                    <p><strong class="feature-highlight">Features:</strong></p>
+                    <ul class="features-list">
+                        <li>Converted Figma design into a fully functional UI for the PRDD plugin admin panel.</li>
+                        <li>Used HTML5, Bootstrap 4, and custom CSS to create responsive layouts</li>
+                        <li>Improved onboarding flow, navigation menus, and page structure to enhance overall user experience.</li>
+                        <li>Worked with cross-functional teams (designer + developers) to finalize UI updates.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- jQuery (required for Bootstrap) -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+	<!-- Bootstrap JS Bundle (includes Popper.js for modals) -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+
+	
+	<!-- custom -->
+	<script src="js/custom.js"></script>
+
 
 	</body>
 </html>
